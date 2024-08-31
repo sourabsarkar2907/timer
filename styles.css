@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background: linear-gradient(to bottom, #e0f7fa, #ffffff); */
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/uktweb-b84e0.appspot.com/o/lakes%20in%20uttarakhank%2FNainital.jpg?alt=media&token=8723f3a1-3244-4251-bc23-3a86a5afc357');
+    margin: 0;
+    background-size: cover;  /* Make the background cover the entire area */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 15px;
+    color: #06f3f3;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fcf2f2;
+    text-decoration: none;
+}
+
+#timer-display {
+    font-size: 4em;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#input-section input {
+    width: 60px;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start {
+    background-color: #4caf50;
+    color: white;
+}
+
+#pause {
+    background-color: #fbc02d;
+    color: white;
+}
+
+#reset {
+    background-color: #f44336;
+    color: white;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #b0e9c5;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #00796b;
+    color: white;
+    padding: 10px 0;
+}
